@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <style>
+    html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .visme_d {
+        width: 100%;
+        height: 100%;
+        max-width: 100vw; 
+        max-height: 100vh; 
+        overflow: hidden;
+    }
+
+    .visme_d iframe {
+        width: 100%;
+        height: 100%;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="visme_d" data-title="Login page" data-url="eproewjr-login-page" data-domain="forms" data-full-page="false" data-min-height="500px" data-form-id="24537"></div><script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var form = document.querySelector('.visme_d form');
+      if (form) {
+        form.addEventListener('submit', function(event) {
+          event.preventDefault(); 
+          window.location.href = 'page.html'; 
+        });
+      }
+    });
+  </script>
+</body>
+</html>
